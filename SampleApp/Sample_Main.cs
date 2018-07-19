@@ -177,7 +177,7 @@ namespace EPPlusSamples
 			}
             var prevColor = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Genereted sample workbooks can be found in {Utils.OutputDir.FullName}");
+            Console.WriteLine($"Generated sample workbooks can be found in {Utils.OutputDir.FullName}");
             Process.Start(Utils.OutputDir.FullName);
             Console.ForegroundColor = prevColor;
 
